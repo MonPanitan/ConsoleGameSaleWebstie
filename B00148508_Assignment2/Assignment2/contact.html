@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="js/form-validation.js"></script>
+    
+    <!-- JAVASCRIPT-->
+    <script src="js/slide-show.js"></script>
+    <script src="js/responsiveMenu.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/contact-validation.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navStyle.css"><!--Link to Menu Style -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <title>CoMp Gaming</title>
+</head>
+<body>
+    
+        <div class="Container" >
+            <div class= "navBar" id= "myTopNav">
+                <div id= "logo"><a href="index.html"><img src="img/controller.png"alt="store logo"></a>
+                </div>
+                <nav>
+                    <div class= "nav-Right">
+                        <a href="index.html" >Home</a>
+                        
+                        <div class ="dropdown">
+                        <a href="##" class ="dropbtn">Products Catagories <i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                            
+                                <!--Bundle Menu -->
+                            <div class="drop-content0">
+                            <a href="ps4.html">Games</a>
+                            </div>
+                            
+                                <!--Bundle -->
+                            <div class ="drop-content1">
+                            <a href="Bundle.html">Bundles</a>
+                                <!-- Drop down Shooting game -->
+                            </div>
+                            
+                                <!-- Clearance-->
+                            <div class="drop-content2">
+                            <a href="nintendo.html">Clearance</a>
+                            </div>
+
+                            
+                        </div><!-- End of drop down content-->
+                    </div><!--End of drop down list -->
+                    <a href="Bundle.html">Bundles</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="contact.html">Contact Us</a>
+
+                    </div>
+                    
+                </nav>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <hr>
+        <div class="main-content">
+            <div class="grid_Container">
+                <div class = "grid1">
+                    <img src="img/back-main/background.jpg">
+                </div>
+                <div class = "grid2">
+                    <h2> Address:</h2>
+                    <h4>Game Night</h4>
+                    <p>Park House, 191 N Circular Rd, Cabra East, Grangegorman, Co. Dublin, D07 EWV4</p>
+                    
+                    
+                    <div id="map1"></div>
+                    
+                    <div id="contact-form">
+                        <h3>Contact Us</h3>
+                        <form action="contactSend()" id="contactForm">
+                            <div class="fillform">
+                                <label for="fullName">Full Name:</label><br>
+                                <input type="text" name="fullname" id="fullname" minlength="5" required>
+                                <br><br>
+                            
+                                <!-- Mobile -->
+                                <label for="mobile">Mobile:</label><br>
+                                <input type="tel" name="mobile" id="mobile" pattern="[0-9]{3} - [0-9]{7}" placeholder="08x-xxxxxxx" required>
+                                <br><br>
+                            
+                                <!-- Email -->
+                                <label for="email">Email:</label><br>
+                                <input type="email" name="email" id="email" placeholder="example@example.com" required >
+                                <br><br>
+                            
+                                <textarea rows="10" cols="50" id="information" placeholder="Write your inquiring here."></textarea>
+                                <br><br>
+                            
+                            <button id="information-btn "type="submit" >Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class ="grid3">
+                    <h4> Site Map</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Bundle.html">Bundles</a></li>
+                        <li><a href="ps4.html">Games</a></li>
+                        <li><a href="xbox.html">Xbox-One</a></li>
+                        <li><a href="nintendo.html">Clearance</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class ="grid4">
+                    <img src="img/back-main/background.jpg">
+                </div>
+                
+            </div>
+            <hr>
+            </div>
+        </div><!-- End of Container div -->
+                <footer>
+                    
+                    <p>@2022 All right reserved Panitan Sripoom B00148508 TUD DUBLIN</p>
+                    
+            <div class="footer-grid">
+                <div class ="footer_Grid1">
+                    <h2>Social media</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/TechnologicalUniversityDublin.TUDublin/" class="fa fa-facebook"></a>TU Dublin</li>
+                        
+                        <li><a href="https://www.instagram.com/tudublin/?hl=en" class="fa fa-instagram"></a>@tudublin</li>
+                        
+                        <li><a href="https://twitter.com/WeAreTUDublin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>@WeAreTUDublin</li>
+                        
+                    </ul>
+                </div>
+                <div class ="footer_Grid2">
+                    <h2> Contact Us</h2>
+                    <ul>
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:b00148508@mytudublin.ie">EMAIL US</a></li>
+                        <li><i class="fa fa-phone"></i> CALL 080-1234567</li>
+                        <li>Park House, 191 N Circular Rd, Cabra East, Grangegorman, Co. Dublin, D07 EWV4</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=initMap&' async defer></script>
+    
+    
+</body>
+</html>

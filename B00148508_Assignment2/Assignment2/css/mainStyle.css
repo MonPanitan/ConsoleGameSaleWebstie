@@ -1,0 +1,135 @@
+.main-content{
+    background-color: white;
+}
+
+.grid3 ul li ,a{
+    text-decoration: none;
+}
+.grid2 #ps4page h2{
+    background-color: #003791;
+    color: white;
+}
+.grid2 #xboxpage h2{
+    background-color: #107C10;
+    color: white;
+}
+.ps4-new, .xbox-new, .nintendo-new{
+    display: grid;
+    grid-template-columns: Repeat(3, 1fr);
+}
+
+.ps4-new img{
+    width: 50%;
+    text-align: center;
+}
+.ps4-new div{
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.xbox-new img{
+    width: 50%;
+    text-align: center;
+}
+.xbox-new div{
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.nintendo-new img{
+    width: 50%;
+    text-align: center;
+}
+.nintendo-new div{
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bundle img{
+    width: 50%;
+    text-align: center;
+}
+..bundle div{
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+input[type='number']{
+    width: 60px;
+    
+}
+.addToCart{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.bundle #ps4title h3 {
+    background-color: #003791;
+    color: white;
+    padding-left: 30px;
+    
+}
+
+.bundle #xboxtitle h3 {
+    background-color: #107C10;
+    color: white;
+    padding-left: 30px;
+}
+
+.grid2 #ps4-main-page h4{
+    background-color: #003791;
+    color: white;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+.grid2 #xbox-main-page h4{
+    background-color: #107C10;
+    color: white;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+.grid2 #nintendo-main-page h4{
+    background-color: #dd2020;
+    color: white;
+    padding: 7px;
+    padding-left: 30px;
+}
+#normal{
+    color: red;
+    text-decoration: line-through;
+}
+#discount{
+    color: red;
+    font-size: 20px;
+}
+.bundle button {
+    text-align: center;
+    opacity: 0.7;
+}
+#out-stock{
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*Inside index page*/
+.slide-main .rslides img{
+    width: 1000px;
+    height: 500px;
+}
+
+.grid3 ul li a{
+    text-decoration: none;
+}
+.error{
+    color: red;
+}
+
+

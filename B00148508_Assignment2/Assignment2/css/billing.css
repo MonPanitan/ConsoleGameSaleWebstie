@@ -1,0 +1,29 @@
+form{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+form hr{
+    color: green;
+    padding-top: 10px;
+}
+form button{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 7px;
+}
+form input, textarea{
+    border-radius: 10px;
+    box-shadow: 3px 1px;
+    width: 100%;
+}
+#checkbox{
+    width: 20px;
+}
+.error {
+      color: red;
+      
+   }

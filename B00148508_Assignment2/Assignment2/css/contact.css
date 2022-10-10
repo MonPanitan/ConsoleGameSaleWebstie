@@ -1,0 +1,24 @@
+#contact-form{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:20px;
+    
+}
+#contact-form input, textarea{
+    width: 80%;
+    border-radius: 7px;
+}
+#contact-form textarea{
+    margin-top: 20px;
+}
+#contact-form button{
+    padding: 4px;
+    margin-top: 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}
